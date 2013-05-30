@@ -1,0 +1,17 @@
+{
+  "name"          : "node-dev-proxy",
+  "description"   : "Node Node development proxy module",
+  "version"       : "0.1.0",
+  "main"          : "./lib/nodedevproxy.js",
+  "repository"    : {
+    "type": "git",
+    "url" : "git@github.com:zappan/node-dev-proxy.git"
+  },
+  "keywords"      : [
+    "node",
+    "node.js",
+    "proxy"
+  ],
+  "author"        : "Tomislav Capan <tomislav.capan@gmail.com>",
+  "license"       : "MIT"
+}
