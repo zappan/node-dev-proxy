@@ -2,7 +2,7 @@
 
 Node development proxy module.
 
-Based on [http://www.catonmat.net/http-proxy-in-nodejs/|this article],
+Based on [this article](http://www.catonmat.net/http-proxy-in-nodejs/),
 it allows development server to act as a proxy towards any other data
 server, mostly used in single page applications development with an
 external data source.
@@ -14,7 +14,7 @@ and headers.
 Between hostname and host, the module currently uses only host IP address
 if available, ommitting setting the hostname on the request options because
 of the slow resolving of DNS lookups in Node core
-(see [https://github.com/nodejitsu/node-http-proxy/issues/314|discussion]).
+(see [discussion](https://github.com/nodejitsu/node-http-proxy/issues/314)).
 
 Hostname for the request should be set in request headers so that the target
 server can distinguish the hostname the request is targeted for.
